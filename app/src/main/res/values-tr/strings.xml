@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mantık Bulmacaları</string>
+    <string name="app_headname">Matematik | Mantık Bulmacaları 2019</string>
+    <string name="app_headname1">Matematik</string>
+    <string name="app_headname2">Mantık Bulmacaları 2019</string>
+
+    <string name="all_sections_complete">Tüm Bölümler Tamamlandı!\nLütfen Yeni Bölümler İçin Güncellemeleri Bekleyiniz!</string>
+    <string name="are_you_sure_you_want_to_exit">Çıkmak İstediğine Emin misin?</string>
+    <string name="are_you_sure_you_want_to_restart">Baştan Başlamak İstediğinize Emin misiniz?</string>
+    <string name="please_select_level">Lütfen Bölüm Seçiniz!</string>
+    <string name="advertisement_watch">Reklam İzle</string>
+    <string name="you_have_no_rights__you_can_right_win_by_watching_ads">Deneme Hakkınız Kalmadı.\nReklam İzleyerek Hak Kazanabilirsiniz.</string>
+    <string name="check_your_internet_connection">İnternet Bağlantınızı Kontrol Ediniz!</string>
+    <string name="email_select">E-mail Göndermek için Seçiniz:</string>
+    <string name="your_email_has_been_not_sent">E-Mail Gönderilmedi!</string>
+    <string name="learn_tips_or_earn_trial">Cevabı Öğren</string>
+    <string name="learn_tips_or_earn_trial2">Deneme Hakkı Kazan</string>
+    <string name="advertising_watch">Reklam İzle</string>
+
+    <string name="start">BAŞLA</string>
+    <string name="levels">BÖLÜMLER</string>
+    <string name="restart">SIFIRLA</string>
+    <string name="share">PAYLAŞ</string>
+    <string name="rate">DEĞERLENDİR</string>
+    <string name="exit">ÇIKIŞ</string>
+    <string name="wrong_answer">YANLIŞ CEVAP</string>
+    <string name="locked">KİLİTLİ!</string>
+    <string name="save">KAYDET</string>
+    <string name="contact">İLETİŞİM</string>
+
+
+    <string name="cancel">İptal</string>
+    <string name="hint">İpucu</string>
+    <string name="earn_hearth">Kalp Kazan</string>
+    <string name="next">İleri</string>
+    <string name="congratulations">Tebrikler</string>
+    <string name="home_page">Anasayfa</string>
+    <string name="level">Bölüm</string>
+    <string name="try_again">Yeniden Dene</string>
+    <string name="check_again">Tekrar Kontrol Et</string>
+    <string name="loading">Yükleniyor | Lütfen Bekleyin...</string>
+    <string name="send">Gönder</string>
+    <string name="name">İsim</string>
+    <string name="message">Mesaj</string>
+    <string name="answer">Cevap</string>
+    <string name="learn_answer">Cevabı Öğren</string>
+    <string name="loading_advertising">Reklam Yükleniyor</string>
+
+    <string name="or">veya</string>
+
+    <string name="loading_level">Bölüm Yükleniyor...</string>
+    <string name="loading_levels">Bölümler Yükleniyor...</string>
+
+    <string name="ad_could_not_load">Reklam Yüklenemedi!</string>
+</resources>

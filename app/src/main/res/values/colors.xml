@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#373737</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#272727</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="black_item2">#373737</color>
+    <color name="black_item1">#272727</color>
+    <color name="black_item1_1">#1F1B1B</color>
+    <color name="black_background1">#121212</color>
+
+    <color name="button_disabled_background">#616161</color>
+
+    <color name="transpblack_background1">#9E272727</color>
+    <color name="transpblack_background2">#D2272727</color>
+
+    <color name="transpblack_background3">#B3272727</color>
+    <color name="transpblack_background4">#BF272727</color>
+    <color name="transpblack_background5">#CC272727</color>
+    <color name="transpblack_background6">#D9272727</color>
+    <color name="transpblack_background7">#E6272727</color>
+    <color name="transpblack_background8">#F2272727</color>
+
+    <color name="transparent_white">#66FFFFFF</color>
+    <color name="custom_red">#8D2727</color>
+</resources>

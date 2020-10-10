@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math | Logic Puzzles</string>
+    <string name="app_headname">Math | Logic Puzzles 2019</string>
+    <string name="app_headname1">Math</string>
+    <string name="app_headname2">Logic Puzzles 2019</string>
+
+    <string name="all_sections_complete">All Sections Complete!\nPlease Wait For Updates For New Questions!</string>
+    <string name="are_you_sure_you_want_to_exit">Are You Sure You Want To Exit?</string>
+    <string name="are_you_sure_you_want_to_restart">Are You Sure You Want To Restart?</string>
+    <string name="please_select_level">Please Select Level!</string>
+    <string name="advertisement_watch">Ad Watch</string>
+    <string name="you_have_no_rights__you_can_right_win_by_watching_ads">You Have No Rights.\nYou Can Right Win By Watching Ads.</string>
+    <string name="check_your_internet_connection">Check your Internet Connection!</string>
+    <string name="email_select">E-mail Select:</string>
+    <string name="your_email_has_been_not_sent">Your E-Mail Has Been Not Sent</string>
+    <string name="learn_tips_or_earn_trial">Learn Answer</string>
+    <string name="learn_tips_or_earn_trial2">Earn Trial</string>
+    <string name="advertising_watch">Advertising Watch</string>
+
+
+    <string name="start">START</string>
+    <string name="levels">SECTIONS</string>
+    <string name="restart">RESTART</string>
+    <string name="share">SHARE</string>
+    <string name="rate">RATE</string>
+    <string name="exit">EXIT</string>
+    <string name="wrong_answer">WRONG ANSWER</string>
+    <string name="locked">LOCKED!</string>
+    <string name="save">SAVE</string>
+    <string name="contact">CONTACT</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="hint">Hint</string>
+    <string name="earn_hearth">Earn Hearth</string>
+    <string name="next">Next</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="home_page">Home Page</string>
+    <string name="level">Level</string>
+    <string name="try_again">Try Again</string>
+    <string name="check_again">Check Again</string>
+    <string name="loading">Loading | Please Wait...</string>
+    <string name="send">Send</string>
+    <string name="name">Name</string>
+    <string name="message">Message</string>
+    <string name="answer">Answer</string>
+    <string name="learn_answer">Learn Answer</string>
+    <string name="loading_advertising">Loading Advertising</string>
+
+    <string name="or">or</string>
+
+    <string name="loading_level">Loading Section...</string>
+    <string name="loading_levels">Loading Sections...</string>
+
+    <string name="ad_could_not_load">Ad Could Not Load!</string>
+
+</resources>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/main_appbar_design"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_textview_actionhead"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/concert_one"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="@string/app_headname"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/main_linear_soundscheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center|right"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:id="@+id/main_imageview_vibration"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/radius_main_button"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_vibration_on"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageView
+                    android:id="@+id/main_imageviewsound"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/radius_main_button"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_sound_on"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="25dp">
+
+                <LinearLayout
+                    android:id="@+id/main_linear_startgame"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ic_begin"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/main_textview_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/start"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_linear_levels"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ic_sections"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/main_textview_levels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/levels"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_linear_restart"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ic_restart"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/main_textview_restart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/restart"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_linear_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ic_share"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/main_textview_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/share"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_linear_vote"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ic_rate"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/main_textview_vote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/rate"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_linear_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView_contact"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/contact" />
+
+                    <TextView
+                        android:id="@+id/main_textview_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/contact"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/main_linear_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/radius_main_button"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/exit2" />
+
+                    <TextView
+                        android:id="@+id/main_textview_exit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:text="@string/exit"
+                        android:textColor="#FFF"
+                        android:textSize="19sp"
+                        android:textStyle="normal|bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
