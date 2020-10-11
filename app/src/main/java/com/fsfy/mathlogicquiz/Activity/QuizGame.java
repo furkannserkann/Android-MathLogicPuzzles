@@ -49,7 +49,6 @@ import java.io.File;
 
 public class QuizGame extends AppCompatActivity {
     public static final int _maxHeart = 3, _minHeart = 1;
-    private final String REWARDAD_ID = "ca-app-pub-6603859120161805/3913989464";
 
     public static DbLevels dbLevels;
 
@@ -270,7 +269,7 @@ public class QuizGame extends AppCompatActivity {
             }
         });
 
-        MobileAds.initialize(this, "ca-app-pub-6603859120161805~5422208372");
+        MobileAds.initialize(this, getString(R.string.odullu_ad_id));
         mRewardedVideoAdHakKazan = MobileAds.getRewardedVideoAdInstance(getApplicationContext());
         mRewardedVideoAdHakKazan.setRewardedVideoAdListener(new RewardedVideoAdListener() {
             @Override
@@ -402,8 +401,8 @@ public class QuizGame extends AppCompatActivity {
     }
 
     private void loadRewardedVideoAdHakKazan() {
-        mRewardedVideoAdHakKazan.loadAd(REWARDAD_ID,
-                new AdRequest.Builder().addTestDevice("F5DBF9369AA09DEC004804A7E6AAC356").build());
+        mRewardedVideoAdHakKazan.loadAd(getString(R.string.odullu_ad_id),
+                new AdRequest.Builder().addTestDevice(getString(R.string.test_device_id)).build());
         isLoadAd = false;
 
         progressBarAds.setVisibility(View.VISIBLE);
@@ -784,7 +783,7 @@ public class QuizGame extends AppCompatActivity {
     private void FullscreenAd() {
         mInterstitialAd = new InterstitialAd(this);
 
-        mInterstitialAd.setAdUnitId("ca-app-pub-6603859120161805/9060224576");
+        mInterstitialAd.setAdUnitId(getString(R.string.fullscreen_ad_id));
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
