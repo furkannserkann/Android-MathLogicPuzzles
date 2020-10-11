@@ -2,6 +2,7 @@
 
 ## About
 Creative puzzle game to improve math logic intelligence. English or Turkish language according to the language selected in the phone's settings.
+
 Google Play: https://play.google.com/store/apps/details?id=com.fsfy.mathlogicquiz
 
 ## Services used in it
