@@ -18,6 +18,6 @@ Google Play: https://play.google.com/store/apps/details?id=com.fsfy.mathlogicqui
 ## Things to do for Google Admob Ads
 • In the string.xml file, write your own IDs instead of advertising IDs.
 
-• In the string.xml file, write your own ID instead of the Tester ID.
+• In the string.xml file, write your own ID instead of the Device ID.
 
 ![](https://user-images.githubusercontent.com/25348044/95674505-4c2ffa00-0bb9-11eb-9f1d-5e748b552cca.jpg)
